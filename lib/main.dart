@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Example_1/example_1_page.dart';
-import 'Example_1/example_2_page.dart';
-import 'Example_1/example_Tarea_page.dart';
+import 'Day_3/example1_3_page.dart';
+
+
 
 void main() {
   runApp(MyApp());
@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primaryColor: Colors.red,
         accentColor: Colors.blue,
         floatingActionButtonTheme: FloatingActionButtonThemeData (backgroundColor: Colors.black),
       ),
-      home: ExampleTarea(),
+      home: Example3(),
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

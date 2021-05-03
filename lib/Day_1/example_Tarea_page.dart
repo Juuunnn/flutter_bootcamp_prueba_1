@@ -23,6 +23,7 @@ class _ExampleState extends State<ExampleTarea> {
       child: Text(
         "hello world $_number",
         style: TextStyle(fontSize: 30, color: Cols),
+        // _number.is no de que ? then colors.blue else Colors.red;
       ),
     ));
   }
